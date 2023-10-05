@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Décimo</title>
+    <link rel="stylesheet" href="css/salario.css">
+    
+</head>
+<body>
+    <div class="calc-Salario"> 
+        <div class="text">
+            <h1>Calculadora de Décimo Terceiro</h1>
+        </div>
+
+        <div class="salario-Inputs">
+            <label for="salarioBruto">Digite o Salário</label>
+            <Input type="" id="salarioBruto" min="1" placeholder="R$ 0000,00"></Input>
+            <label for="qtd-Meses">Meses trabalhados</label>
+            <Input type="number" id="mesDecimo" min="1" placeholder=""></Input>
+
+            <div class="btn-Calcular">
+                <button onclick="calcularDecimo()">CALCULAR</button>
+                <a href="index.html"><button>VOLTAR</button></a>  
+            </div>
+
+            <div class="resposta">
+                <p class="calcular" id="inss"></p>
+                <p class="calcular" id="irrf"></p>
+                <p class="calcular" id="resultDecimo"></p>   
+            </div>                
+        </div>
+
+    </div>
+</body>
+<script src="js/salario.js"></script>
+</html>
